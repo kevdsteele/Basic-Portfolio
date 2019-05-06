@@ -163,4 +163,44 @@ background:#145374;
 color:#e8e8e8;
 font-size:18px;
 padding:10px 20px;
+
+}
+
+/*Portfolio*/
+
+.portfolio-container {
+   
+    background:#e8e8e8;
+    width:960px;
+    margin:0 auto 40 auto;
+}
+
+.portfolio-content {
+    margin: 30px 20px;
+    padding-bottom: 30px; 
+}
+
+.port-img {
+width:300px;
+height:200px;
+margin-top: 20px;
+margin-right:30px;
+margin-bottom:20px;
+
+}
+
+.text-overlay {
+position:absolute;
+background:#145374;
+color:#e8e8e8;
+bottom:50px;
+width:300px;
+text-align:center;
+padding:10px;
+}
+
+.port-img-container {
+position:relative;
+color:#e8e8e8;
+float:left;
 }
