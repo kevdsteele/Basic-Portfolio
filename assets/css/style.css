@@ -1,0 +1,123 @@
+/* set border box */
+* {
+    box-sizing: border-box;
+  }
+
+  /* clearfix for floats */
+
+.clearfix::after{
+    content: "";
+    clear:both;
+    display:table;
+}
+
+
+
+/*html elements */
+
+body {
+font-family:Arial,'Nelevetica Neue', Helvetica, Sans-serif;
+font-size:16px;
+color:#777;
+line-height:1.5;
+margin:0;
+padding:0;
+background: url(../images/squared_metal.png)
+
+}
+
+footer {
+width:auto;
+margin:0px;
+height:75px;
+background:#00334e;
+border-top:10px solid #145374;
+font-size:12px;
+}
+
+.footer-content {
+width:960px;
+margin: 0 auto 0 auto;
+text-align:center;
+color:#e8e8e8;
+padding-top:40px;
+
+}
+
+header {
+background:#e8e8e8;
+color:#5588a3;
+width:auto;
+margin:0;
+font-family:Georgia, 'Times New Roman', Times, serif;
+border-bottom:2px solid #5588a3;
+
+}
+
+header a{
+color:#e8e8e8;
+text-decoration:none;
+
+}
+
+nav a{
+color:#145374;
+font-size:20px;
+padding-left: 10px;
+margin-left: 10px;
+border-left: 2px solid #5588a3;
+
+}
+
+nav {
+float:right;
+margin-top:30px;
+}
+
+nav a:first-child {
+border-left:0 none;
+}
+
+section{
+background:#e8e8e8;
+width:960px;
+margin:20px auto 60px auto;
+}
+
+.section-content{
+margin: 30px 20px;
+}
+
+h1{
+color:#145374;
+padding-top:25px;
+
+}
+
+hr{
+height:2px;
+color:#5588a3;
+}
+
+.header-content {
+width:960px;
+height:100px;
+margin:0 auto 0 auto;
+}    
+
+.main-logo{
+float:left;
+background: #145374;
+font-size:32px;
+
+height: 100px;
+padding:25px;
+}
+
+.avatar{
+width:200px;
+height:200px;
+float:left;
+margin: 15px 20px 20px 0px;
+}
+
