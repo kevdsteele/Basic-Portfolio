@@ -1,3 +1,10 @@
+
+
+
+
+
+/* ------- */
+
 /* set border box */
 * {
     box-sizing: border-box;
@@ -22,7 +29,7 @@ color:#777;
 line-height:1.5;
 margin:0;
 padding:0;
-background: url(../images/squared_metal.png)
+background: url(../images/binarybkg1.png)
 
 }
 
@@ -91,12 +98,12 @@ margin: 30px 20px;
 h1{
 color:#145374;
 padding-top:25px;
+font-size:32px;
 
 }
 
 hr{
-height:2px;
-color:#5588a3;
+border-top:1px solid #5588a3;
 }
 
 .header-content {
@@ -168,39 +175,37 @@ padding:10px 20px;
 
 /*Portfolio*/
 
-.portfolio-container {
-   
-    background:#e8e8e8;
-    width:960px;
-    margin:0 auto 40 auto;
+.portfolio-top-container {
+width:960px;
+height:900px;
+margin:0 auto 30px auto;
+background:#e8e8e8;
+
 }
 
-.portfolio-content {
-    margin: 30px 20px;
-    padding-bottom: 30px; 
+.portfolio-content{
+margin:30px 20px;
 }
 
-.port-img {
+.port-item{
+position:relative;
+float:left;
+}
+
+.port-img{
 width:300px;
 height:200px;
-margin-top: 20px;
-margin-right:30px;
-margin-bottom:20px;
-
+margin-top:20px;
+margin-right: 30px;
+margin-bottom: 30px;
 }
 
-.text-overlay {
+h2 {
 position:absolute;
-background:#145374;
-color:#e8e8e8;
-bottom:50px;
+bottom:10%;
 width:300px;
+background:#145374;
 text-align:center;
-padding:10px;
-}
-
-.port-img-container {
-position:relative;
+padding:15px;
 color:#e8e8e8;
-float:left;
 }
