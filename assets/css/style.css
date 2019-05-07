@@ -1,10 +1,4 @@
 
-
-
-
-
-/* ------- */
-
 /* set border box */
 * {
     box-sizing: border-box;
@@ -21,6 +15,11 @@
 
 
 /*html elements */
+a {
+text-decoration: none;
+color:#e8e8e8;
+}
+
 
 body {
 font-family:Arial,'Nelevetica Neue', Helvetica, Sans-serif;
@@ -33,6 +32,48 @@ background: url(../images/binarybkg1.png)
 
 }
 
+header {
+width:100%;
+background: #e8e8e8;
+border-bottom: 2px solid #00334e;
+}
+
+h1{
+    color:#145374;
+    padding-top:25px;
+    font-size:32px;
+    
+    }
+
+hr{
+border-top:1px solid #5588a3;
+    }
+
+
+/* Header and Footer shared by Index, Contact and Portfolio Pages */
+
+a:hover {
+color:#00334e;
+background: #e8e8e8;
+text-decoration: underline;
+}
+
+
+#header-content {
+    width:960px;
+    height:100px;
+    margin:0 auto 0 auto;
+    } 
+
+.main-logo{
+float:left;
+background: #145374;
+font-size:32px;
+height: 100px;
+padding:25px;
+}
+
+
 footer {
 width:auto;
 margin:0px;
@@ -42,86 +83,51 @@ border-top:10px solid #145374;
 font-size:12px;
 }
 
-.footer-content {
-width:960px;
-margin: 0 auto 0 auto;
-text-align:center;
-color:#e8e8e8;
-padding-top:40px;
-
+#footer-content {
+    width:960px;
+    margin: 0 auto 0 auto;
+    text-align:center;
+    color:#e8e8e8;
+    padding-top:40px;
 }
-
-header {
-background:#e8e8e8;
-color:#5588a3;
-width:auto;
-margin:0;
-font-family:Georgia, 'Times New Roman', Times, serif;
-border-bottom:2px solid #5588a3;
-
-}
-
-header a{
-color:#e8e8e8;
-text-decoration:none;
-
-}
+    
+nav {
+float:right;
+margin-top:30px;
+        }
 
 nav a{
 color:#145374;
 font-size:20px;
 padding-left: 10px;
 margin-left: 10px;
-border-left: 2px solid #5588a3;
-
+border-left: 2px solid #5588a3; 
+text-decoration: none;
 }
-
-nav {
-float:right;
-margin-top:30px;
-}
-
+        
+        
 nav a:first-child {
 border-left:0 none;
-}
+ }
 
-section{
+ nav a:hover{
+     color:#145374;
+ }
+
+/* Index Page Specific CSS */
+
+#section-wrapper{
 background:#e8e8e8;
 width:960px;
 margin:20px auto 60px auto;
 }
 
-.section-content{
+#section-content{
 margin: 30px 20px;
 }
+ 
 
-h1{
-color:#145374;
-padding-top:25px;
-font-size:32px;
-
-}
-
-hr{
-border-top:1px solid #5588a3;
-}
-
-.header-content {
-width:960px;
-height:100px;
-margin:0 auto 0 auto;
-}    
-
-.main-logo{
-float:left;
-background: #145374;
-font-size:32px;
-
-height: 100px;
-padding:25px;
-}
-
-.avatar{
+#avatar{
 width:200px;
 height:200px;
 float:left;
@@ -131,15 +137,14 @@ margin: 15px 20px 20px 0px;
 
 /* contact page */
 
-.main-contact{
+#contact-wrapper{
 background:#e8e8e8;
 width:960px;
-margin:0 auto 300 auto;
-
+margin:0 auto 0 auto;
 
 }
     
-.contact-content{
+#contact-content-wrapper{
 margin: 30px 20px;
 padding-bottom: 30px;
     }
@@ -175,7 +180,7 @@ padding:10px 20px;
 
 /*Portfolio*/
 
-.portfolio-top-container {
+#portfolio-wrapper {
 width:960px;
 height:900px;
 margin:0 auto 30px auto;
@@ -183,7 +188,7 @@ background:#e8e8e8;
 
 }
 
-.portfolio-content{
+#portfolio-content-wrapper{
 margin:30px 20px;
 }
 
