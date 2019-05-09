@@ -88,8 +88,14 @@ font-size:12px;
     margin: 0 auto 0 auto;
     text-align:center;
     color:#d9d9d9;
-    padding-top:40px;
+    padding-top:10px;
 }
+
+.fabicons {
+    background:#145374;
+    color:d9d9d9;
+    font-size:24px;
+    }
     
 nav {
 float:right;
@@ -115,7 +121,7 @@ border-left:0 none;
      background: #00334e;
  }
 
-/* Index Page Specific CSS */
+/* About Page Specific CSS */
 
 #section-wrapper{
 background:#e8e8e8;
@@ -219,3 +225,4 @@ text-align:center;
 padding:15px;
 color:#e8e8e8;
 }
+
