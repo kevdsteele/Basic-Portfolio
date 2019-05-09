@@ -239,3 +239,15 @@ padding:15px;
 color:#e8e8e8;
 }
 
+.bio-link {
+color:#145374;
+background: d1d1d1;
+text-decoration: none;
+
+}
+
+.bio-link:hover {
+background:#e8e8e8;
+color:#145374;
+text-decoration:underline;
+}
