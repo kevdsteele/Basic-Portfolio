@@ -137,7 +137,7 @@ border-left:0 none;
 /* About Page Specific CSS */
 
 #section-wrapper{
-background:#e8e8e8;
+background:white;
 width:960px;
 margin:0 auto 0 auto;
 }
@@ -159,7 +159,7 @@ margin: 15px 20px 20px 0px;
 /* contact page */
 
 #contact-wrapper{
-background:#e8e8e8;
+background:white;
 width:960px;
 margin:0 auto 0 auto;
 
@@ -208,7 +208,7 @@ padding:10px 20px;
 #portfolio-wrapper {
 width:960px;
 margin:0 auto 30px auto;
-background:#e8e8e8;
+background:white;
 
 }
 
