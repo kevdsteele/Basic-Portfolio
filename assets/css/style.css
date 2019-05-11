@@ -143,9 +143,10 @@ font-size:24px;
 /* About Page Specific CSS */
 
 #section-wrapper{
-background:white;
+background:#ffffff;
 width:960px;
 margin:0 auto 0 auto;
+
 }
 
 #section-content{
@@ -177,9 +178,10 @@ text-decoration:underline;
 /* contact page */
 
 #contact-wrapper{
-background:white;
+background:#ffffff;
 width:960px;
 margin:0 auto 0 auto;
+
 }
     
 #contact-content-wrapper{
@@ -220,7 +222,7 @@ padding:10px 20px;
 #portfolio-wrapper {
 width:960px;
 margin:0 auto 0 auto;
-background:white;
+background:#ffffff;
 }
 
 #portfolio-content-wrapper{
